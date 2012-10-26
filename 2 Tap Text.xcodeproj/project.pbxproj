@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A136F58154BCBB5008B6A3E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A136F57154BCBB5008B6A3E /* AddressBookUI.framework */; };
+		7A480E0A1545126000F08F90 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A480E091545126000F08F90 /* MessageUI.framework */; };
+		7A480E111545165500F08F90 /* AddShortCutViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A480E101545165500F08F90 /* AddShortCutViewControllerViewController.m */; };
+		7AC3320F154A5D1E007F75D1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AC3320E154A5D1E007F75D1 /* data.plist */; };
+		7ACF4146154F84DF00DBD491 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF11B26154D49E600B1672F /* Icon@2x.png */; };
+		7ACF4147154F84FA00DBD491 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF11B28154D49FE00B1672F /* Icon.png */; };
+		7ADFF935154E742B00C2D3E1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADFF934154E742B00C2D3E1 /* StoreKit.framework */; };
+		7AF11ADB154BD37300B1672F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF11ADA154BD37300B1672F /* AddressBook.framework */; };
+		7AF11ADF154BEBCB00B1672F /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF11ADE154BEBCB00B1672F /* CreditsViewController.m */; };
+		7AF22D891540E14B00F91894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF22D881540E14B00F91894 /* UIKit.framework */; };
+		7AF22D8B1540E14B00F91894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF22D8A1540E14B00F91894 /* Foundation.framework */; };
+		7AF22D8D1540E14B00F91894 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF22D8C1540E14B00F91894 /* CoreGraphics.framework */; };
+		7AF22D931540E14B00F91894 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AF22D911540E14B00F91894 /* InfoPlist.strings */; };
+		7AF22D951540E14B00F91894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF22D941540E14B00F91894 /* main.m */; };
+		7AF22D991540E14B00F91894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF22D981540E14B00F91894 /* AppDelegate.m */; };
+		7AF22D9C1540E14C00F91894 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF22D9A1540E14C00F91894 /* MainStoryboard.storyboard */; };
+		7AF22D9F1540E14C00F91894 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF22D9E1540E14C00F91894 /* MasterViewController.m */; };
+		7AF22DA21540E14C00F91894 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF22DA11540E14C00F91894 /* DetailViewController.m */; };
+		7AF22DAA1540E68800F91894 /* Shortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF22DA91540E68800F91894 /* Shortcut.m */; };
+		7AF22DAD1540EA0E00F91894 /* ShortcutDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF22DAC1540EA0E00F91894 /* ShortcutDataController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A136F57154BCBB5008B6A3E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		7A480E091545126000F08F90 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7A480E0F1545165500F08F90 /* AddShortCutViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddShortCutViewControllerViewController.h; sourceTree = "<group>"; };
+		7A480E101545165500F08F90 /* AddShortCutViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddShortCutViewControllerViewController.m; sourceTree = "<group>"; };
+		7AC3320E154A5D1E007F75D1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		7ADFF934154E742B00C2D3E1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7AF11ADA154BD37300B1672F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7AF11ADD154BEBCB00B1672F /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		7AF11ADE154BEBCB00B1672F /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		7AF11B26154D49E600B1672F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7AF11B28154D49FE00B1672F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7AF22D841540E14B00F91894 /* 2 Tap Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2 Tap Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF22D881540E14B00F91894 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AF22D8A1540E14B00F91894 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AF22D8C1540E14B00F91894 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AF22D901540E14B00F91894 /* 2 Tap Text-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2 Tap Text-Info.plist"; sourceTree = "<group>"; };
+		7AF22D921540E14B00F91894 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AF22D941540E14B00F91894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AF22D961540E14B00F91894 /* 2 Tap Text-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2 Tap Text-Prefix.pch"; sourceTree = "<group>"; };
+		7AF22D971540E14B00F91894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AF22D981540E14B00F91894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AF22D9B1540E14C00F91894 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7AF22D9D1540E14C00F91894 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		7AF22D9E1540E14C00F91894 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		7AF22DA01540E14C00F91894 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7AF22DA11540E14C00F91894 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7AF22DA81540E68800F91894 /* Shortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shortcut.h; sourceTree = "<group>"; };
+		7AF22DA91540E68800F91894 /* Shortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shortcut.m; sourceTree = "<group>"; };
+		7AF22DAB1540EA0E00F91894 /* ShortcutDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutDataController.h; sourceTree = "<group>"; };
+		7AF22DAC1540EA0E00F91894 /* ShortcutDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutDataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF22D811540E14B00F91894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADFF935154E742B00C2D3E1 /* StoreKit.framework in Frameworks */,
+				7AF11ADB154BD37300B1672F /* AddressBook.framework in Frameworks */,
+				7A136F58154BCBB5008B6A3E /* AddressBookUI.framework in Frameworks */,
+				7A480E0A1545126000F08F90 /* MessageUI.framework in Frameworks */,
+				7AF22D891540E14B00F91894 /* UIKit.framework in Frameworks */,
+				7AF22D8B1540E14B00F91894 /* Foundation.framework in Frameworks */,
+				7AF22D8D1540E14B00F91894 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF22D791540E14B00F91894 = {
+			isa = PBXGroup;
+			children = (
+				7ADFF934154E742B00C2D3E1 /* StoreKit.framework */,
+				7AF11B28154D49FE00B1672F /* Icon.png */,
+				7AF11B26154D49E600B1672F /* Icon@2x.png */,
+				7AF11ADA154BD37300B1672F /* AddressBook.framework */,
+				7A136F57154BCBB5008B6A3E /* AddressBookUI.framework */,
+				7A480E091545126000F08F90 /* MessageUI.framework */,
+				7AF22D8E1540E14B00F91894 /* Text Shortcuts */,
+				7AF22D871540E14B00F91894 /* Frameworks */,
+				7AF22D851540E14B00F91894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF22D851540E14B00F91894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF22D841540E14B00F91894 /* 2 Tap Text.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF22D871540E14B00F91894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AF22D881540E14B00F91894 /* UIKit.framework */,
+				7AF22D8A1540E14B00F91894 /* Foundation.framework */,
+				7AF22D8C1540E14B00F91894 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AF22D8E1540E14B00F91894 /* Text Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				7AF22D971540E14B00F91894 /* AppDelegate.h */,
+				7AF22D981540E14B00F91894 /* AppDelegate.m */,
+				7AC3320E154A5D1E007F75D1 /* data.plist */,
+				7AF22D9A1540E14C00F91894 /* MainStoryboard.storyboard */,
+				7AF11ADD154BEBCB00B1672F /* CreditsViewController.h */,
+				7AF11ADE154BEBCB00B1672F /* CreditsViewController.m */,
+				7AF22DA81540E68800F91894 /* Shortcut.h */,
+				7AF22DA91540E68800F91894 /* Shortcut.m */,
+				7AF22DAB1540EA0E00F91894 /* ShortcutDataController.h */,
+				7AF22DAC1540EA0E00F91894 /* ShortcutDataController.m */,
+				7AF22D9D1540E14C00F91894 /* MasterViewController.h */,
+				7AF22D9E1540E14C00F91894 /* MasterViewController.m */,
+				7A480E0F1545165500F08F90 /* AddShortCutViewControllerViewController.h */,
+				7A480E101545165500F08F90 /* AddShortCutViewControllerViewController.m */,
+				7AF22DA01540E14C00F91894 /* DetailViewController.h */,
+				7AF22DA11540E14C00F91894 /* DetailViewController.m */,
+				7AF22D8F1540E14B00F91894 /* Supporting Files */,
+			);
+			path = "Text Shortcuts";
+			sourceTree = "<group>";
+		};
+		7AF22D8F1540E14B00F91894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AF22D901540E14B00F91894 /* 2 Tap Text-Info.plist */,
+				7AF22D911540E14B00F91894 /* InfoPlist.strings */,
+				7AF22D941540E14B00F91894 /* main.m */,
+				7AF22D961540E14B00F91894 /* 2 Tap Text-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF22D831540E14B00F91894 /* 2 Tap Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF22DA51540E14C00F91894 /* Build configuration list for PBXNativeTarget "2 Tap Text" */;
+			buildPhases = (
+				7AF22D801540E14B00F91894 /* Sources */,
+				7AF22D811540E14B00F91894 /* Frameworks */,
+				7AF22D821540E14B00F91894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2 Tap Text";
+			productName = "Text Shortcuts";
+			productReference = 7AF22D841540E14B00F91894 /* 2 Tap Text.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF22D7B1540E14B00F91894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University of California, Berkeley";
+			};
+			buildConfigurationList = 7AF22D7E1540E14B00F91894 /* Build configuration list for PBXProject "2 Tap Text" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7AF22D791540E14B00F91894;
+			productRefGroup = 7AF22D851540E14B00F91894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF22D831540E14B00F91894 /* 2 Tap Text */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF22D821540E14B00F91894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF22D931540E14B00F91894 /* InfoPlist.strings in Resources */,
+				7AF22D9C1540E14C00F91894 /* MainStoryboard.storyboard in Resources */,
+				7AC3320F154A5D1E007F75D1 /* data.plist in Resources */,
+				7ACF4146154F84DF00DBD491 /* Icon@2x.png in Resources */,
+				7ACF4147154F84FA00DBD491 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF22D801540E14B00F91894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF22D951540E14B00F91894 /* main.m in Sources */,
+				7AF22D991540E14B00F91894 /* AppDelegate.m in Sources */,
+				7AF22D9F1540E14C00F91894 /* MasterViewController.m in Sources */,
+				7AF22DA21540E14C00F91894 /* DetailViewController.m in Sources */,
+				7AF22DAA1540E68800F91894 /* Shortcut.m in Sources */,
+				7AF22DAD1540EA0E00F91894 /* ShortcutDataController.m in Sources */,
+				7A480E111545165500F08F90 /* AddShortCutViewControllerViewController.m in Sources */,
+				7AF11ADF154BEBCB00B1672F /* CreditsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AF22D911540E14B00F91894 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF22D921540E14B00F91894 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AF22D9A1540E14C00F91894 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF22D9B1540E14C00F91894 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF22DA31540E14C00F91894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ken Szubzda (8J97U25P94)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "440685D3-41BB-43F9-9479-7C2E12160C22";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AF22DA41540E14C00F91894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ken Szubzda (8J97U25P94)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "440685D3-41BB-43F9-9479-7C2E12160C22";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF22DA61540E14C00F91894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Text Shortcuts/2 Tap Text-Prefix.pch";
+				INFOPLIST_FILE = "Text Shortcuts/2 Tap Text-Info.plist";
+				PRODUCT_NAME = "2 Tap Text";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AF22DA71540E14C00F91894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Text Shortcuts/2 Tap Text-Prefix.pch";
+				INFOPLIST_FILE = "Text Shortcuts/2 Tap Text-Info.plist";
+				PRODUCT_NAME = "2 Tap Text";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF22D7E1540E14B00F91894 /* Build configuration list for PBXProject "2 Tap Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF22DA31540E14C00F91894 /* Debug */,
+				7AF22DA41540E14C00F91894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF22DA51540E14C00F91894 /* Build configuration list for PBXNativeTarget "2 Tap Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF22DA61540E14C00F91894 /* Debug */,
+				7AF22DA71540E14C00F91894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF22D7B1540E14B00F91894 /* Project object */;
+}
